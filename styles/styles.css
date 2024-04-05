@@ -1,0 +1,32 @@
+/* styles.css */
+.navbar-custom {
+    background-color: #7AA2E3; /* Culoare de fundal */
+    font-family: 'Roboto', sans-serif; /* Font text */
+    padding: 0.5em 0; /* Spatiere text */
+    border-bottom: 1px solid #000000; /* Border */
+    .navbar-brand {
+        font-size: 2em; /* Marime text */
+    }
+    .navbar-brand {
+        font-size: 1.5em; /* Marime text */
+    }
+    .nav-link {
+        font-size: 1.2em; /* Marime text */
+        color: #000000; /* Culoare text */
+        
+        hover{
+            color: #d73434; /* Culoare text la hover */
+        }
+    }
+    .navbar-toggler {
+        border: 1px solid #000000; /* Border */
+    }
+    .navbar-nav  {
+        .nav-item {
+            padding: 0 1em; /* Spatiere text */
+            hover{
+                color: #d73434; /* Culoare de fundal la hover */
+                
+            }
+        }
+    }
