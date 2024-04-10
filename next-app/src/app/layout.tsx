@@ -5,6 +5,7 @@ import Home from "./page";
 import Navbar from "./nav";
 
 const inter = Inter({ subsets: ["latin"] });
+import About from "./about";
 
 export const metadata: Metadata = {
   title: "Create Next App",
