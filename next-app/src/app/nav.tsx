@@ -8,10 +8,10 @@ export default function Navbar() {
     const [state, setState] = React.useState(false)
 
     const menus = [
-      { title: "Home", path: "/your-path" },
-      { title: "Blog", path: "/your-path" },
-      { title: "About Us", path: "/your-path" },
-      { title: "Contact Us", path: "/your-path" },
+      { title: "Home", path: "/" },
+      { title: "Blog", path: "/blog" },
+      { title: "About Us", path: "/about" },
+      { title: "Contact Us", path: "/contact" },
     ]
 
     return (
