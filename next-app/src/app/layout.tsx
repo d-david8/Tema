@@ -6,6 +6,7 @@ import Navbar from "./nav";
 
 const inter = Inter({ subsets: ["latin"] });
 import About from "./about";
+import Contact from "./contact";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,11 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-        <body>
-        <Navbar/>
-
-        </body>
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <Navbar />
+        <About />
+      </body>
     </html>
   );
 }
